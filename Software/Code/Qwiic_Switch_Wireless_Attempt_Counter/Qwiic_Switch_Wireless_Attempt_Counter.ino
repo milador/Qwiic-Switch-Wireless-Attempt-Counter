@@ -154,19 +154,19 @@ void showSession(){
 void showConnection(int code) {
 
   M5.Lcd.setRotation(0);
-  M5.Lcd.drawRect(1, 130, 79, 15, BLUE);
-  M5.Lcd.setCursor(2, 135);
+  M5.Lcd.drawRect(1, 128, 79, 15, BLUE);
+  M5.Lcd.setCursor(2, 133);
   M5.Lcd.setTextColor(WHITE);                           // Select the font
   M5.Lcd.setTextSize(1);
   //Display connection status based on code
   if(code==0){
     switchConnectionMessage = "Error: No I2C";
     LOG.println(switchConnectionMessage);
-    M5.Lcd.drawCentreString(switchConnectionMessage,2,135,1);// Display connection state
+    M5.Lcd.drawCentreString(switchConnectionMessage,2,133,1);// Display connection state
   } else if(code==1){
     switchConnectionMessage = "Success: I2C";
     LOG.println(switchConnectionMessage);
-    M5.Lcd.drawCentreString(switchConnectionMessage,2,135,1);// Display connection state
+    M5.Lcd.drawCentreString(switchConnectionMessage,2,133,1);// Display connection state
   }
     
 }
@@ -213,7 +213,9 @@ void introLoop() {
 /***Session Page Loop***/
 void sessionLoop() {
   //Reset session 
-  if (M5.BtnA.isPressed()) {
+  M5.update();
+  
+  if (M5.BtnA.wasReleased()) {
     resetSessionData();
     showSession();
   } 
