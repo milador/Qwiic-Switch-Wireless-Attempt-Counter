@@ -1,9 +1,13 @@
 # This is a project based on Qwiic Adaptive Switch modules
 This repository offers the required information for creating an Open Source Assistive Technology using [Qwiic Adaptive Switch modules](https://github.com/milador/Qwiic-Adaptive-Switch).
 
-## [Project Title]
+##  Qwiic-Switch-Wireless-Attempt-Counter
 
-This is the description of the Open Source Assistive Technology created based on Qwiic Adaptive Switch modules and other components.
+A Wi-Fi enabled device to track the number of adapted switch input activations based on Qwiic Adaptive Switch modules and Wio Terminal.
+
+<p align="center">
+<img align="center" src="./Resources/Images/Qwiic_Switch_Wireless_Attempt_Counter.png" width="50%" height="50%" alt="Setup Diagram"/>
+</p>
 
 ## Requirements and setup instructions 
 The setup process is divided to three main catagories:
