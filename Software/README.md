@@ -7,7 +7,7 @@
   1. [Arduino IDE](https://www.arduino.cc/en/software)
   2. [Main Code](./Code/)
   3. [M5StickC](https://github.com/m5stack/M5StickC)
-
+  4. [SparkFun_Qwiic_GPIO_Library](https://github.com/sparkfun/SparkFun_Qwiic_GPIO_Library)
 
 ## Software Setup Process
 
@@ -30,24 +30,29 @@
   3. Extract **M5StickC-master.zip** file
   4. Rename **M5StickC-master** folder to **M5StickC** folder under **M5StickC-master** subdirectory. 
   5. Copy or move **M5StickC** folder to Arduino installation library subdirectory. As an example: This is found under **C:\Program Files (x86)\Arduino\libraries in windows 10**.
-  7. Visit the **Qwiic_Switch_Wireless_Attempt_Counter.ino** raw source code file under Code directory.
-  8. Right click on the source code or any place on this page and select **Save Page As…**
-  9. Select the directory you would like to save the software in your computer. 
-  10. Change File name from **Qwiic_Switch_Wireless_Attempt_Counter** to **Qwiic_Switch_Wireless_Attempt_Counter.ino**
-  11. Change **Save as type** to **All Files**.
-  12. Click on **Save** button.
-  13. Visit the **Free_Fonts.h** raw source code file under Code directory.
-  14. Right click on the source code or any place on this page and select **Save Page As…**
-  15. Select the directoryyou selected in step 3.
+  6. Visit the **SparkFun_Qwiic_GPIO_Library** library github repository page.
+  7. Click on **Code > Download Zip** to download **SparkFun_Qwiic_GPIO_Library**.
+  8. Extract **SparkFun_Qwiic_GPIO_Library-master.zip** file
+  9. Rename **SparkFun_Qwiic_GPIO_Library-master** folder to **SparkFun_Qwiic_GPIO_Library** folder under **SparkFun_Qwiic_GPIO_Library-master** subdirectory. 
+  10. Copy or move **SparkFun_Qwiic_GPIO_Library** folder to Arduino installation library subdirectory. As an example: This is found under **C:\Program Files (x86)\Arduino\libraries in windows 10**.
+  11. Visit the **Qwiic_Switch_Wireless_Attempt_Counter.ino** raw source code file under Code directory.
+  12. Right click on the source code or any place on this page and select **Save Page As…**
+  13. Select the directory you would like to save the software in your computer. 
+  14. Change File name from **Qwiic_Switch_Wireless_Attempt_Counter** to **Qwiic_Switch_Wireless_Attempt_Counter.ino**
+  15. Change **Save as type** to **All Files**.
   16. Click on **Save** button.
-  17. Open the directory you selected in step 3.
-  18. Double left click or open **Qwiic_Switch_Wireless_Attempt_Counter** file
-  19. **Arduino IDE** will ask your permission to create a new sketch folder named **Qwiic_Switch_Wireless_Attempt_Counter** and move **Qwiic_Switch_Wireless_Attempt_Counter.ino** under this folder.
-  20. Click on the **Ok** button. 
-  21. **Arduino IDE** should now open the **Qwiic_Switch_Wireless_Attempt_Counter.ino** file automatically.
-  22. Select the Board under **Tools > Board > M5Stick Arduino Boards** as **M5Stick-C**
-  23. Select the correct port number under **Tools > Port** which should show COM XX (M5StickC) 
-  24. Press the **Verify** button to make sure there is no problem with the software and libraries. 
-  25. Press **Upload** button 
+  17. Visit the **Free_Fonts.h** raw source code file under Code directory.
+  18. Right click on the source code or any place on this page and select **Save Page As…**
+  19. Select the directoryyou selected in step 3.
+  20. Click on **Save** button.
+  21. Open the directory you selected in step 3.
+  22. Double left click or open **Qwiic_Switch_Wireless_Attempt_Counter** file
+  23. **Arduino IDE** will ask your permission to create a new sketch folder named **Qwiic_Switch_Wireless_Attempt_Counter** and move **Qwiic_Switch_Wireless_Attempt_Counter.ino** under this folder.
+  24. Click on the **Ok** button. 
+  25. **Arduino IDE** should now open the **Qwiic_Switch_Wireless_Attempt_Counter.ino** file automatically.
+  26. Select the Board under **Tools > Board > M5Stick Arduino Boards** as **M5Stick-C**
+  27. Select the correct port number under **Tools > Port** which should show COM XX (M5StickC) 
+  28. Press the **Verify** button to make sure there is no problem with the software and libraries. 
+  29. Press **Upload** button 
 
 
